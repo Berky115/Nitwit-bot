@@ -6,7 +6,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True)
 
-for tweet in tweepy.Cursor(api.search, q='#DBZ').items(5):
+for tweet in tweepy.Cursor(api.search, q='Search term here').items(5):
     try:
         print('\nTweet by- @' + tweet.user.screen_name)
         tweet.retweet()
