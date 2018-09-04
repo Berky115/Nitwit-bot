@@ -1,3 +1,3 @@
-standard update
-message___image.jpg
-message___image.gif
+update type 1
+update type 2 ___ path.jpg
+update type3 ___ path.gif

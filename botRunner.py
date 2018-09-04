@@ -64,6 +64,6 @@ for line in file_lines:
     except tweepy.TweepError as e:
         print(e.reason)
 #post in seconds
-    sleep(10800)
+    sleep(3600)
 
 # nohup python3 botRunner.py & to run in background
