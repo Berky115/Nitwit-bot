@@ -1,3 +1,0 @@
-update type 1
-update type 2 ___ path.jpg
-update type3 ___ path.gif
